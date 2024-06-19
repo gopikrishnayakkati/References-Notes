@@ -2,11 +2,7 @@ Kubernetes Deployment using docker images from private Jfrog Repository
 -----------------------------------------------------------------------
 * First create the Secrets using the command 
 ```bash
-kubectl create secret docker-registry regcred \
---docker-server=krishna0527.jfrog.io \
---docker-username=krishna315283@gmail.com \
---docker-password="give your token "\
---docker-email=krishna315283@gmail.com
+kubectl create secret docker-registry regcred --docker-server=<your-registry-server> --docker-username=<your-name> --docker-password=<your-pword> --docker-email=<your-email>
 ```
 
 * Created a secreat file 
