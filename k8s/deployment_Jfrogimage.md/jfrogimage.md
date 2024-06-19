@@ -2,7 +2,11 @@ Kubernetes Deployment using docker images from private Jfrog Repository
 -----------------------------------------------------------------------
 * First create the Secrets using the command 
 ```bash
-kubectl create secret docker-registry regcred --docker-server=<your-registry-server> --docker-username=<your-name> --docker-password=<your-pword> --docker-email=<your-email>
+kubectl create secret docker-registry regcred \
+--docker-server=krishna0527.jfrog.io \
+--docker-username=krishna315283@gmail.com \
+--docker-password=cmVmdGtuOjAxOjE3NTAzMjcxMzE6ZHVJSWh5Ukd4dWV6SXZZUFNzTWVvdlFLd2Qx \
+--docker-email=krishna315283@gmail.com
 ```
 
 * Created a secreat file 
@@ -53,6 +57,6 @@ spec:
       nodePort: 30007
 ```
 * Create the manifest file and apply 
-![alt text](image-1.png)
+  ![alt text](image-1.png)
 * Access the application using nodeport
-![alt text](image-2.png) 
+  ![alt text](image-2.png) 
