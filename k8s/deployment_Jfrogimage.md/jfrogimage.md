@@ -5,7 +5,7 @@ Kubernetes Deployment using docker images from private Jfrog Repository
 kubectl create secret docker-registry regcred \
 --docker-server=krishna0527.jfrog.io \
 --docker-username=krishna315283@gmail.com \
---docker-password=cmVmdGtuOjAxOjE3NTAzMjcxMzE6ZHVJSWh5Ukd4dWV6SXZZUFNzTWVvdlFLd2Qx \
+--docker-password="give your token "\
 --docker-email=krishna315283@gmail.com
 ```
 
