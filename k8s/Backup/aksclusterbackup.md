@@ -160,5 +160,5 @@ kubectl apply -f <fileName>
 ## Delete the Resource group 
 
 ```bash
-az group create --name $MY_RESOURCE_GROUP_NAME --no-wait --yes 
+az group delete --name $MY_RESOURCE_GROUP_NAME --no-wait --yes 
 ```
