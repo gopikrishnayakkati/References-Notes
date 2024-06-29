@@ -128,11 +128,15 @@ kubectl apply -f <fileName>
 ![alt text](images/backup8.png)
 ![alt text](images/backup9.png)
 ![alt text](images/backup10.png)
+
 # instalation  is completed and click on backup and give the necessary values
+
 ![alt text](images/backup11.png)
 ![alt text](images/backup12.png)
 ![alt text](images/backup13.png)
+
 # Create a backup policy
+
 ![alt text](images/backup14.png)
 ![alt text](images/backup15.png)
 ![alt text](images/backup16.png)
@@ -140,21 +144,33 @@ kubectl apply -f <fileName>
 ![alt text](images/backup18.png)
 ![alt text](images/backup19.png)
 ![alt text](images/backup20.png)
+
 # Now Backup the cluster 
+
 ![alt text](images/backup22.png)
 ![alt text](images/backup21.png)
+
 #  Check the backup status
+
 ![alt text](images/backup23.png)
+
 # Select the Deployment and delete the Deployment 
+
 ![alt text](images/backup24.png)
 ![alt text](images/backup25.png)
+
 # To Restore the Deployment 
+
 ![alt text](images/backup26.png)
 ![alt text](images/backup27.png)
 ![alt text](images/backup28.png)
+
 # Check the restore process => go to backup vaults and select the vault 
+
 ![alt text](images/backup29.png)
+
 # Completed the Restore check the Deployment 
+
 ![alt text](images/backup30.png)
 
 ## Delete the Resource group 
