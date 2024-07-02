@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment 
+metadata: 
+  name: my-app
+spec: 
+  selector:
+  replicas: 3
+  template:
+    spec: 
+      containers:
+        - name: my-app
+          image: shaikkhajaibrahim/dmttest:2.0
+          ports: 
+            - containerPort:  80

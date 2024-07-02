@@ -1,0 +1,3 @@
+resorces:
+  - deployment.yaml
+  - service.yaml
