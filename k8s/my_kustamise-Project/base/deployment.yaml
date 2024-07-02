@@ -4,9 +4,6 @@ metadata:
   name: my-app
 spec: 
   replicas: 1
-  selector:
-    matchLabels:
-      app: my-app
   template: 
     metadata:
       labels:
