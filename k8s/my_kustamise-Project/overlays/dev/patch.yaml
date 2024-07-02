@@ -3,11 +3,14 @@ kind: Deployment
 metadata:
   name: my-app
 spec:
+  selector:
+    matchLabels:
+      app: my-app
   replicas: 2
   template:
     spec:
       containers:
         - name: my-app
-          image: shaikkhajaibrahim/dmttest:1.0
+          image: gopikrishna0527/k8s-deploy-mulitimage-versions:2.0
           ports:
             - containerPort: 80
