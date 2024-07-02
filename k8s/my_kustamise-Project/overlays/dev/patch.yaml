@@ -4,6 +4,9 @@ metadata:
   name: my-app
 spec: 
   replicas: 3
+  selector:
+    matchLabels:
+      app: my-app
   template:
     spec: 
       containers:
