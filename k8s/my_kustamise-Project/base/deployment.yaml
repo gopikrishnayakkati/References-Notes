@@ -2,18 +2,16 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-app
-spec: 
+spec:
+  replicas: 1
   selector:
     matchLabels:
       app: my-app
-  replicas: 1
-  template: 
+  template:
     metadata:
       labels:
         app: my-app
     spec:
       containers:
         - name: my-app
-          image: shaikkhajaibrahim/dmttest:1.0
-          ports:
-            - containerPort: 80
+          image: test:1.0
