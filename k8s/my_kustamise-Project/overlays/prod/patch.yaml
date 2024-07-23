@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: gopikrishna0527/k8s-deploy-mulitimage-versions:2.0
+          image: gopikrishna0527/k8s-deploy-mulitimage-versions:3.0
           ports:
             - containerPort: 80
