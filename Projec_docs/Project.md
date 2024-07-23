@@ -1,6 +1,6 @@
-# Project:  Insurance Platform
+# Project:  ------- Insurance Platform
 -----------------------------
-## Project Name: Insurance Platform
+## Project Name: ----- Insurance Platform
 
 # Description:
 Geico's insurance platform offers a comprehensive range of insurance products including auto, home, renters, and more. The platform is designed to provide users with an easy-to-use interface for obtaining quotes, purchasing policies, managing accounts, and filing claims.
@@ -185,12 +185,12 @@ Daily Responsibilities
 
 
 #### Basic self Introduction 
-##### Hello, my name is Gopi Krishna. I am a DevOps Engineer with 4.6 years of experience in managing and optimizing cloud-based infrastructure and deploying scalable applications. Currently, I am working on the Geico Insurance Platform project, where I focus on implementing and managing microservices architecture, CI/CD pipelines, and container orchestration.
+### Hello, my name is Gopi Krishna. I am a DevOps Engineer with 4.6 years of experience in managing and optimizing cloud-based infrastructure and deploying scalable applications. Currently, I am working on the ---- Insurance Platform project, where I focus on implementing and managing microservices architecture, CI/CD pipelines, and container orchestration.
 
-##### In my role, I design and maintain robust CI/CD pipelines using tools like Jenkins and GitLab CI, and I oversee the containerization of applications using Docker, with orchestration managed through Kubernetes. I am responsible for ensuring system reliability and performance by integrating monitoring tools like Prometheus and Grafana, and centralized logging with the ELK Stack.
+### In my role, I design and maintain robust CI/CD pipelines using tools like Jenkins and GitLab CI, and I oversee the containerization of applications using Docker, with orchestration managed through Kubernetes. I am responsible for ensuring system reliability and performance by integrating monitoring tools like Prometheus and Grafana, and centralized logging with the ELK Stack.
 
-##### I also manage cloud infrastructure on AWS, utilizing services such as EC2, RDS, and S3, and handle infrastructure as code with Terraform. Security and compliance are paramount in my work, so I implement IAM roles and policies, conduct security assessments, and ensure adherence to industry standards.
+### I also manage cloud infrastructure on AWS, utilizing services such as EC2, RDS, and S3, and handle infrastructure as code with Terraform. Security and compliance are paramount in my work, so I implement IAM roles and policies, conduct security assessments, and ensure adherence to industry standards.
 
-##### Throughout my career, I have demonstrated a commitment to continuous improvement, both in optimizing DevOps processes and staying abreast of the latest industry trends. My role involves close collaboration with cross-functional teams to align on goals and deliver high-quality solutions.
+### Throughout my career, I have demonstrated a commitment to continuous improvement, both in optimizing DevOps processes and staying abreast of the latest industry trends. My role involves close collaboration with cross-functional teams to align on goals and deliver high-quality solutions.
 
-##### I am passionate about leveraging my skills to enhance system efficiency and drive successful outcomes for projects I am involved in.
+### I am passionate about leveraging my skills to enhance system efficiency and drive successful outcomes for projects I am involved in.
