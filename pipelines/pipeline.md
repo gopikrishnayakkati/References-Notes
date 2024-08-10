@@ -23,6 +23,17 @@ pipeline {
                 sh 'mvn sonar:sonar'
             }
         }
+        stage('Build Docker Image') {
+            steps {
+                sh 'docker build -t my-app .'
+            }
+        }
+        stage('Push to JFrog') {
+            steps {
+                sh 'docker tag my-app <JFROG_URL>/my-app:latest'
+                sh 'docker push <JFROG_URL>/my-app:latest'
+            }
+        }
         stage('Terraform Init') {
             steps {
                 sh 'terraform init'
@@ -73,6 +84,17 @@ pipeline {
         stage('SonarQube Analysis') {
             steps {
                 sh 'mvn sonar:sonar'
+            }
+        }
+        stage('Build Docker Image') {
+            steps {
+                sh 'docker build -t my-app .'
+            }
+        }
+        stage('Push to JFrog') {
+            steps {
+                sh 'docker tag my-app <JFROG_URL>/my-app:latest'
+                sh 'docker push <JFROG_URL>/my-app:latest'
             }
         }
         stage('Terraform Init') {
