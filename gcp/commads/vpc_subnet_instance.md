@@ -1,6 +1,6 @@
 ## Creating  a vpc network, subnets, firewall and virtual machine 
 
-```bash
+```
 # Create network using help command
 gcloud compute networks create --help
 # Creating a network name my-vpc
@@ -22,7 +22,7 @@ gcloud compute instances create gopi --machine-type=e2-micro  --network=my-vpc -
 ```
 # clean up 
 
-```bash
+```
 # delete the virtual instance 
 gcloud compute instances delete gopi --zone=asia-south1-a
 # delete the firewalls 
