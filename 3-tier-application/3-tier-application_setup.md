@@ -6,7 +6,7 @@
 * To achive this we are using AWS Cloud Services. 
 * In this application we are using postgress database.
 * Database created in mumbai region (ap-south-1), because developer code written as per the reqiurement.
-* [Refer here ](https://LearningThoughtsEdu@dev.azure.com/LearningThoughtsEdu/Batch-1/_git/three-tier-example) for the code
+* [Refer here ](`https://LearningThoughtsEdu@dev.azure.com/LearningThoughtsEdu/Batch-1/_git/three-tier-example`) for the code
 ## Database Creation 
 
 * Create a Postgress Database in mumbai region and give the necessary details
@@ -33,7 +33,7 @@ passwd= motherindia123
 
 * Copy the database endpoint, username and passwd and edit on app.py file 
 ![3-tier-application/images/3-tier8.png](images/3-tier8.png)
-![3-tier-application/images/3-tier9.png](images/3-tier.png)
+![3-tier-application/images/3-tier9.png](images/3-tier9.png)
 
 
 ## application Environment setup and run the application
